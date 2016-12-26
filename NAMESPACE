@@ -1,0 +1,5 @@
+useDynLib(utf8latex, .registration = TRUE, .fixes = "C_")
+exportPattern("^[^\\.]")
+importFrom("utils", "read.delim")
+
+
